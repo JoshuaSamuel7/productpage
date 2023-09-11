@@ -39,21 +39,22 @@ a{
     padding: 13% 10% 7%;
     background-color: #0F2C59;
 }
+.headtxt{
+    color: #fff;
+    font-family: "Oswald";
+    font-size: 5rem;
+    display: inline;
+}
 .log{
     font-size: 5rem;
-    position: absolute;
-    top: 53%;
-    right: 23%;
+    display: inline;
+    color: #fff;
 }
 .header1{
     margin: auto;
-}
-.headtxt{
-    color: #fff;
     text-align: right;
-    font-family: "Oswald";
-    font-size: 5rem;
 }
+
 .hdt{
     color: #fff;
     text-align: right;
@@ -61,14 +62,14 @@ a{
     padding-top: 3%;
     font-size: 1.2rem;
 }
-@media (max-width:1024px) {
+/* @media (max-width:1024px) {
     .log{
         font-size: 5rem;
         position: absolute;
         top: 39%;
         right: 30%;
         }
-}
+} */
 /* MIDDLE */
 
 #middle{
